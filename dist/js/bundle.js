@@ -70,8 +70,50 @@
 "use strict";
 
 
-alert('1');
-var a = 1;
+var _module = __webpack_require__(1);
+
+var _module2 = _interopRequireDefault(_module);
+
+var _module3 = __webpack_require__(2);
+
+var _module4 = _interopRequireDefault(_module3);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _module2.default)();
+console.log('fuck webpack');
+
+(0, _module4.default)();
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function fn() {
+    console.log(1);
+}
+exports.default = fn;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function fn() {
+    console.log(2);
+}
+exports.default = fn;
 
 /***/ })
 /******/ ]);
