@@ -141,8 +141,8 @@ var update = __webpack_require__(6)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss", function() {
-		var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss");
+	module.hot.accept("!!../../node_modules/css-loader/index.js??ref--1-1!../../node_modules/postcss-loader/lib/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss", function() {
+		var newContent = require("!!../../node_modules/css-loader/index.js??ref--1-1!../../node_modules/postcss-loader/lib/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -176,7 +176,7 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "body {\n  height: 100px;\n  width: 100px;\n  background: yellow;\n  border: 1px solid green; }\n", ""]);
+exports.push([module.i, "body {\n  height: 100px;\n  width: 100px;\n  background: yellow;\n  border: 1px solid green;\n  -webkit-box-flex: display;\n      -ms-flex: display;\n          flex: display; }\n", ""]);
 
 // exports
 
